@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     text-align: center;
+    text-transform: uppercase;
 }
 
 h1,
@@ -10,4 +11,30 @@ h3,
 h4,
 h5 {
     text-transform: uppercase;
+}
+
+.card {
+    border: 1px solid white;
+    box-sizing: border-box;
+    float: left;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    padding: 0 0 45% 0;
+    position: relative;
+    width: 45%;
+}
+
+.card-content {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered {
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 0 0 40% 0;
+    width: 40%;
+
+    position: absolute;
 }
